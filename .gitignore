@@ -1,0 +1,26 @@
+# === Python / Backend ===
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Локальна тестова БД SQLite
+*.db
+*.sqlite3
+
+# === Секрети та конфігурація (NFR-4) ===
+.env
+
+# === Node.js / Frontend ===
+node_modules/
+dist/
+build/
+.vite/
+
+# === Середовища розробки та ОС ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
